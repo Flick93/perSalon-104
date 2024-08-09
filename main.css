@@ -1,0 +1,68 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*text styles*/
+.main-text{
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.secondary-text{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.normal-text{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.btn{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/*header*/
+
+nav a{
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 30ox;
+}
+.site-header{
+    background-color: rgb(194, 141, 206);
+}
+
+/*register*/
+.reg-head{
+    background-color: bisque;
+    height: 100px;
+    text-align: center;
+}
+.rh-flex{
+    display: flex;
+    flex-direction: column;
+}
