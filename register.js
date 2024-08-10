@@ -39,7 +39,7 @@ function register(){
     let newPet = new pet(inputName,inputAge,inputGender,inputBreed)
     if(isValid(newPet)==true){
        pets.push(newPet)
-    displayRow();  
+       displayRow();  
     }
      
 }
@@ -47,7 +47,7 @@ function register(){
 function deletePet(id){
     console.log("deleting + id")
     pets.splice(id,1);
-    document.getElementById(id).remove
+    document.getElementById(id).remove();
 }
 
 function init(){
