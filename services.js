@@ -27,7 +27,7 @@ function register(){
     let inputTitle = $("#txtTitle").val();
     let inputPrice = $("#txtPrice").val();
     
-    let service = new Service(inputTitle,inputPrice);
+    let service =new Service(inputTitle,inputPrice);
     save(service);
     $("input").val(""); //inputs cleared
 }
